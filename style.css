@@ -1,50 +1,79 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;   
     margin: 0;
     padding: 0;
     background-color: hsl(0, 0%, 100%);
 }
 
+.article-title {
+    font-size: 25px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+  
+ul, header nav {
+    margin: 0;
+    padding: 0;
+}
+  
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding: 0 20px;
+    color: #ffffff;
+}
+  
+.dark {
+    padding: 15px;
+    background: linear-gradient(black, rgb(56, 56, 56));
+    color: #ffffff;
+    margin: 10px 0;
+}
+  
 header {
     background: linear-gradient(rgb(0, 0, 0), rgb(63, 63, 63));
     color: #ffffff;
     padding: 25px;
     min-height: 50px;
 }
-
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
+  
 header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
-
+  
 header li {
     float: left;
     display: inline;
     padding: 0 20px;
 }
-
+  
+header #branding {
+    float: left;
+}
+  
+header #branding h1 {
+    margin: 0;
+}
+  
+header nav {
+    float:inline-end;
+    margin-top: 10px;
+}
+  
 header .highlight {
     color: #e8ecf4;
     font-weight: bold;
     text-shadow: 3px 5px #000000;
 }
-
+  
 header a:hover {
     color: #cccccc;
     font-weight: bold;
@@ -56,7 +85,7 @@ header a:hover {
     text-align: center;
     color: #f0fcff;
 }
-
+  
 #showcase h2 {
     margin-top: 50px;
     font-size: 50px;
@@ -64,29 +93,28 @@ header a:hover {
     margin-bottom: 50px;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+#boxes {
+    margin-top: 20px;
 }
 
 article#main-col {
-    margin-top: 20px;
+    margin-top:20px;
     float: left;
     width: 60%;
 }
-
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
+p#prices {
+    font-weight: bolder;
+    font-size: 17.5px;
 }
 
-.dark {
-    padding: 15px;
-    background: linear-gradient(black, rgb(56, 56, 56));
-    color: #ffffff;
-    margin: 10px 0;
+article#aboutUs, article#products{
+    border:hsl(0, 0%, 25%) 10px solid;
+}
+
+aside#sidebar {
+    float:right;
+    width: 30%;
+    margin-top:10px;
 }
 
 ul#product li {
@@ -101,8 +129,7 @@ ul#product li {
     width: 500px;
     border: #000000 2.5px solid;
 }
-
-/* Footer Styles */
+  
 footer#contacts {
     background: linear-gradient(to top, rgb(0, 0, 0), rgb(63, 63, 63));
     color: #ffffff;
@@ -114,7 +141,7 @@ footer#contacts {
     margin-left: 10px;
     width: 100px;
 }
-
+  
 @media (max-width: 760px) {
     header #branding,
     header nav,
@@ -122,16 +149,16 @@ footer#contacts {
     #boxes .box,
     article#main-col,
     aside#sidebar {
-        float: none;
-        text-align: center;
-        width: 100%;
+      float: none;
+      text-align: center;
+      width: 100%;
     }
-
+  
     header {
-        padding-bottom: 20px;
+      padding-bottom: 20px;
     }
-
+  
     #showcase h1 {
-        margin-top: 40px;
+      margin-top: 40px;
     }
 }
