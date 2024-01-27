@@ -1,0 +1,137 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+header {
+    background: linear-gradient(rgb(0, 0, 0), rgb(63, 63, 63));
+    color: #ffffff;
+    padding: 25px;
+    min-height: 50px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header .highlight {
+    color: #e8ecf4;
+    font-weight: bold;
+    text-shadow: 3px 5px #000000;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 100px;
+    background: url('../images/showcase.jpg') no-repeat center/cover;
+    text-align: center;
+    color: #f0fcff;
+}
+
+#showcase h2 {
+    margin-top: 50px;
+    font-size: 50px;
+    text-shadow: 5px 5px #000000;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+article#main-col {
+    margin-top: 20px;
+    float: left;
+    width: 60%;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.dark {
+    padding: 15px;
+    background: linear-gradient(black, rgb(56, 56, 56));
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+ul#product li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: hsl(0, 0%, 75%);
+}
+
+#products img {
+    width: 500px;
+    border: #000000 2.5px solid;
+}
+
+/* Footer Styles */
+footer#contacts {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(63, 63, 63));
+    color: #ffffff;
+    padding: 25px;
+    min-height: 50px;
+}
+
+#contacts img {
+    margin-left: 10px;
+    width: 100px;
+}
+
+@media (max-width: 760px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+}
