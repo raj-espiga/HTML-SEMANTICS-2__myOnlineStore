@@ -148,7 +148,8 @@ footer#contacts {
     header nav li,
     #boxes .box,
     article#main-col,
-    aside#sidebar {
+    aside#sidebar, 
+    #products img {
       float: none;
       text-align: center;
       width: 100%;
