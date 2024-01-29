@@ -96,10 +96,6 @@ header a:hover {
     margin-bottom: 50px;
 }
 
-#boxes {
-    margin-top: 20px;
-}
-
 article#main-col {
     margin-top:20px;
     float: left;
@@ -149,7 +145,6 @@ footer#contacts {
     header #branding,
     header nav,
     header nav li,
-    #boxes .box,
     article#main-col,
     aside#sidebar, 
     #products img {
