@@ -6,7 +6,7 @@ body {
     font-size: 15px;   
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 26%, 58%);
+    background-color: hsl(0, 0%, 75%);
 }
 
 .article-title {
@@ -121,7 +121,7 @@ ul#product li {
     padding: 20px;
     border: #cccccc solid 1px;
     margin-bottom: 5px;
-    background: hsl(0, 0%, 75%);
+    background: hsl(0, 0%, 50%);
 }
 
 #products img {
